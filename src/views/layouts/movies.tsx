@@ -12,27 +12,27 @@ const Movies: React.FC = () => {
       <div className="flex flex-nowrap min-w-[1024px] max-w-[1440px] gap-4 w-full overflow-x-scroll">
         <MovieCard 
           title="The Dark Knight"
-          description="Batman fights crime in Gotham City"
+          description="Após dois anos desde o surgimento do Batman, os criminosos de Gotham City têm muito o que temer. Com a ajuda do tenente James Gordon e do promotor público Harvey Dent, Batman luta contra o crime organizado. Acuados com o combate, os chefes do crime aceitam a proposta feita pelo Coringa e o contratam para combater o Homem-Morcego."
           imageUrl={batman}
         />
         <MovieCard 
           title="Django Livre"
-          description="With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+          description="No sul dos Estados Unidos, o ex-escravo Django faz uma aliança inesperada com o caçador de recompensas Schultz para caçar os criminosos mais procurados do país e resgatar sua esposa de um fazendeiro que força seus escravos a participar de competições mortais."
           imageUrl={django}
         />
         <MovieCard 
           title="Homem Aranha no Aranhaverso"
-          description="Teen Miles Morales"
+          description="Após ser atingido por uma teia radioativa, Miles Morales, um jovem negro do Brooklyn, se torna o Homem-Aranha, inspirado no legado do já falecido Peter Parker. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói por baixo de um sobretudo. A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como outras versões do Homem-Aranha."
           imageUrl={homemAranha}
         />
         <MovieCard 
           title="Oldboy"
-          description="After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days."
+          description="Oh Dae-Su é raptado e mantido em cativeiro por 15 anos num quarto de hotel, sem qualquer contato com o mundo externo. Quando ele é inexplicavelmente solto, descobre que é acusado pelo assassinato da esposa e embarca numa missão obsessiva por vingança."
           imageUrl={oldboy}
         />
         <MovieCard 
           title="La La Land"
-          description="While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future."
+          description="O pianista Sebastian conhece a atriz Mia, e os dois se apaixonam perdidamente. Em busca de oportunidades para suas carreiras na competitiva Los Angeles, os jovens tentam fazer o relacionamento amoroso dar certo, enquanto perseguem fama e sucesso."
           imageUrl={lalaland}
         />
       </div>
