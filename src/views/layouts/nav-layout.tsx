@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
+import Login from '../components/login';
 
 const NavLayout: React.FC = () => {
   return (
@@ -23,7 +24,7 @@ const NavLayout: React.FC = () => {
               <div className="flex">
               </div>
               <div className="flex items-center">
-                <a className="hover:text-gray-900">Login</a>
+                <Login />
               </div>
             </div>
           </div>
