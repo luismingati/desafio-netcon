@@ -1,10 +1,11 @@
 import React from 'react';
+import Movies from '../layouts/movies';
 
 const About: React.FC = () => {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <>
+      <Movies />
+    </>
   );
 };
 

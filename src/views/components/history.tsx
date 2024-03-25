@@ -12,7 +12,7 @@ interface HistoryArrayProps {
 
 const History: React.FC<HistoryArrayProps> = ({ history }) => {
   return (
-    <div className='w-full overflow-hidden overflow-x-auto border-collapse mt-10'>
+    <div className='w-full overflow-hidden overflow-x-auto border-collapse pb-4 my-10 min-h-52'>
       <div className='min-w-full divide-y divide-gray-200'>
         <div className='bg-gray-100 flex'>
           <div className='px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider flex-1'>Valor em km</div>
